@@ -174,11 +174,12 @@ header .container nav a{
     width: 600px;
     text-align: center;
     margin-left: -300px;
-    background-color: white;
+    background-color: rgba(83, 183, 74, .55);
+    border-radius: 10px;
 }
 
 #inicio .bloque-inicio h1{
-    color: #f0f0f0;
+    color: #fff;
     font-size: 36px;
     font-weight: 700;
     
@@ -186,8 +187,12 @@ header .container nav a{
 }
 
 #inicio .bloque-inicio p{
-    color:black;
+    color:white;
     font-size: 16px;
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold;
+
     
    
 }
