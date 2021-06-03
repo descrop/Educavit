@@ -410,18 +410,7 @@ footer .redes a{
     padding: 15px;
  }
 
- @media (max-width: 480px){
-    #inicio .bloque-inicio{
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        width: 100%;
-        text-align: center;
-        margin-left: -150px;
-        background-color: rgba(83, 183, 74, .55);
-        border-radius: 10px;
-    }
-}
+
 
     @media(max-width:  767px){
         .container{
@@ -542,4 +531,35 @@ footer .redes a{
         }
     }
 
+    @media only screen and (max-width: 480px) and (min-width: 5px)  {  
   
+
+        #inicio .bloque-inicio{
+            position: absolute;
+            top: 40%;
+            width: 100%;
+            text-align: center;
+            margin-left: -92px;
+            background-color: rgba(83, 183, 74, .55);
+            border-radius: 10px;
+        }
+        
+        #inicio .bloque-inicio h1{
+            color: #000;
+            font-size: 17px;
+            font-weight: 700;
+            padding: 15px;
+            
+            
+        }
+        #inicio .bloque-inicio p{
+            color: #000;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 15px;
+            
+            
+        }
+
+        
+    }
