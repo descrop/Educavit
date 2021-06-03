@@ -567,7 +567,7 @@ footer .redes a{
         }
 
         footer .redes{
-            display: i=flex;
+            display:flex;
             padding-left: 35%;
           }
         
