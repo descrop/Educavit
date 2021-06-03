@@ -415,6 +415,26 @@ footer .redes a{
             width: 100%;
         }
 
+        .columna-mobile-100{
+            width: 100%;
+        }
+
+        .columna-mobile-50{
+            width: 50%;
+        }
+
+        .empujar-mobile-0{
+            margin-left: 0;
+        }
+
+        .sinpadding-mobile{
+            padding: 0;
+        }
+
+        #servicios .bloque-servicio{
+            margin-bottom: 15px;
+        }
+
         header .container nav{
             position: fixed;
             width: 100%;
@@ -435,11 +455,78 @@ footer .redes a{
             font-size: 30px;
             margin: 15px 0;
         }
-        header .container .nav .hamb{
+        header .container  .hamb{
            display: block;
            font-size: 40px;
-           color: red;
+           color: rgba(83, 183, 74, .55);
+        }
+
+        body{
+            font-size: 15px;
+        }
+        
+
+        #inicio{
+            height: 100vh;
+        }
+
+        #inicio img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        #inicio .bloque-inicio{
+            position: absolute;
+            top: 40%;
+            left: 36%;
+            width: 100%;
+            text-align: center;
+            margin-left: -150px;
+            background-color: rgba(83, 183, 74, .55);
+            border-radius: 10px;
+        }
+        
+        #inicio .bloque-inicio h1{
+            color: #fff;
+            font-size: 17px;
+            font-weight: 700;
+            
+            
+        }
+
+        #contactenos{
+            padding: 0;
+            
+        }
+
+        #contactenos iframe{
+            position: relative;
+            height: 50vh;
+        }
+
+        form .boton.boton-negro{
+            width: 100%;
+        }
+
+        footer {
+text-align: center;
+        }
+
+        footer .redes{
+    
+            font-size: 20px;
+            display: flex;
+            
+        
+        }
+        
+        footer .redes a{
+            
+          margin: 0 7.5px;
+          text-align: center;
+        
         }
     }
-   
+
 
