@@ -410,6 +410,19 @@ footer .redes a{
     padding: 15px;
  }
 
+ @media (max-width: 480px){
+    #inicio .bloque-inicio{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        margin-left: -150px;
+        background-color: rgba(83, 183, 74, .55);
+        border-radius: 10px;
+    }
+}
+
     @media(max-width:  767px){
         .container{
             width: 100%;
@@ -529,14 +542,4 @@ footer .redes a{
         }
     }
 
-    @media (max-width: 960){
-        #inicio .bloque-inicio{
-            position: absolute;
-            top: 40%;
-            left: 100px !important;
-            width: 100%;
-            text-align: center;
-            margin-left: -150px;
-            background-color: ;
-        }
-    }
+  
