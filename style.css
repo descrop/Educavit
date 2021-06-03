@@ -243,8 +243,7 @@ footer .redes a{
     width: 600px;
     text-align: center;
     margin-left: -300px;
-    background-color: rgba(83, 183, 74, .55);
-    border-radius: 10px;
+   
 }
 
 #inicio .bloque-inicio h1{
@@ -287,10 +286,16 @@ footer .redes a{
     /*margin: 0;*/
 }
 
-#servicios .bloque-servicio{
+#servicios .bloque-servicio img{
 
-    border: 1px solid grey;
+    border: 1px solid teal;
     border-radius: 10px;
+    
+}
+#servicios .bloque-servicio {
+
+    border-radius: 10px;
+    
 }
 
 #servicios .boque-servicio .bloque-img-servicio{
@@ -481,12 +486,11 @@ footer .redes a{
         #inicio .bloque-inicio{
             position: absolute;
             top: 40%;
-            left: 20%;
+            left: 30%;
             width: 100%;
             text-align: center;
             margin-left: -150px;
-            background-color: rgba(83, 183, 74, .55);
-            border-radius: 10px;
+           
         }
         
         #inicio .bloque-inicio h1{
@@ -537,15 +541,15 @@ footer .redes a{
         #inicio .bloque-inicio{
             position: absolute;
             top: 40%;
+            left: 30%;
             width: 100%;
             text-align: center;
-            margin-left: -92px;
-            background-color: rgba(83, 183, 74, .55);
-            border-radius: 10px;
+            margin-left: -150px;
+            
         }
         
         #inicio .bloque-inicio h1{
-            color: #000;
+            color: white;
             font-size: 17px;
             font-weight: 700;
             padding: 15px;
@@ -553,7 +557,7 @@ footer .redes a{
             
         }
         #inicio .bloque-inicio p{
-            color: #000;
+            color: #fff;
             font-size: 16px;
             font-weight: 700;
             padding: 15px;
