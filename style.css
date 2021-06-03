@@ -523,7 +523,7 @@ footer .redes a{
     
             font-size: 20px;
             display: flex;
-            
+            object-position: center;
         
         }
         
@@ -541,10 +541,11 @@ footer .redes a{
         #inicio .bloque-inicio{
             position: absolute;
             top: 40%;
-            left: 30%;
+            left: 0%;
             width: 100%;
             text-align: center;
-            margin-left: -150px;
+            margin-left: 0px;
+            padding: 0 15px;
             
         }
         
@@ -565,5 +566,9 @@ footer .redes a{
             
         }
 
+        footer .redes{
+            display: i=flex;
+            padding-left: 35%;
+          }
         
     }
