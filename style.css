@@ -520,9 +520,8 @@ footer .redes a{
         }
 
         footer .redes{
-            display:flex;
-            padding-left: 35%;
-          }
+            justify-content: center;
+             }
         
         footer .redes a{
             
@@ -564,8 +563,7 @@ footer .redes a{
         }
 
         footer .redes{
-            display:flex;
-            padding-left: 35%;
+         justify-content: center;
           }
         
     }
