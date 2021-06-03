@@ -520,12 +520,9 @@ footer .redes a{
         }
 
         footer .redes{
-    
-            font-size: 20px;
-            display: flex;
-            object-position: center;
-        
-        }
+            display:flex;
+            padding-left: 35%;
+          }
         
         footer .redes a{
             
