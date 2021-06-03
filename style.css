@@ -298,9 +298,6 @@ footer .redes a{
     
 }
 
-#servicios .boque-servicio .bloque-img-servicio{
-
-}
 
 #servicios .bloque-servicio .bloque-img-servicio img{
     width: 100%;
@@ -319,9 +316,7 @@ footer .redes a{
   font-size: 25px;
 }
 
-#galeria{
 
-}
 
 #galeria h4{
     padding-right: 15px;
@@ -372,6 +367,7 @@ footer .redes a{
 
    padding: 60px;
    background-color: rgb(83, 183, 74);
+   border-radius: 20px;
 }
 
 #contactenos form .form-block{
@@ -510,10 +506,16 @@ footer .redes a{
             position: relative;
             height: 50vh;
         }
-
-        form .boton.boton-negro{
-            width: 100%;
+        form {
+            border-radius: 0px;
         }
+
+        #contactenos form{
+
+            padding: 60px;
+            background-color: rgb(83, 183, 74);
+            border-radius: 0px;
+         }
 
         footer {
         text-align: center;
