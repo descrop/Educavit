@@ -131,6 +131,9 @@ header .container nav a{
     padding-left: 15px;
 }
 
+.columna-25{
+    width: 25%;
+}
 .columna-33{
     width: 33.33%;
 }
@@ -157,6 +160,44 @@ header .container nav a{
 .conta{
     color: white;
 }
+
+footer .logo-footer{
+
+   width: 100%;
+}
+
+footer p{
+
+    color: white;
+    margin-bottom: 30px;
+ }
+
+footer {
+
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+}
+
+footer .barra-footer{
+    background-color: rgb(83, 183, 74);
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
+
 #inicio{
     position: relative;
 
@@ -253,13 +294,16 @@ header .container nav a{
     width: 100%;
 }
 
-#galeria img{
+#galeria .cuadrado-perfecto img{
     filter: grayscale(1);
+    
+    
 }
 
 #galeria .cuadrado-perfecto:hover img{
     filter: none;
     cursor: pointer;
+    background-color: rgb(83, 183, 74);
 }
 
 #galeria .cuadrado-perfecto:hover h4{
@@ -319,3 +363,6 @@ header .container nav a{
    background-color: white;
    color: black;
  }
+
+ 
+    

@@ -19,7 +19,7 @@
 <body>
     <header>
         <div class="container">
-            <a href="index.html"><img src="https://educavit.com.mx/aulas-hibridas/assets/img/logo-white.png" class="logo"></a>
+            <a href="index.html"><img src="img/educavit.png" class="logo"></a>
             <nav>
                 <a href="#inicio" class="boton boton-verde">Inicio</a>
                <a href="#nosotros" class="boton boton-verde">Nosotros</a>
@@ -89,7 +89,7 @@
                     <div class="columna columna-33">
                         <div class="bloque-servicio">
                             <div class="bloque-img-servicio cuadrado-perfecto">
-                                <img src="https://avitsol.com/wp-content/uploads/2021/05/aula-hibrida-elemento2.png">
+                                <img class="img" src="https://avitsol.com/wp-content/uploads/2021/05/aula-hibrida-elemento2.png">
                             </div>
                             <div class="bloque-contenido-servicio">
                                 <h3>Servicio 3</h3>
@@ -112,7 +112,7 @@
                 <div class="row">
                     <div class="columna-33">
                         <div class="cuadrado-perfecto">
-                            <img src="https://avitsol.com/wp-content/uploads/2021/05/aula-hibrida-zoom.png">
+                            <img class="colorear" src="https://educavit.com.mx/aulas-hibridas/assets/img/aulas-main.webp">
                             <h4>Imagen 1</h4>
                         </div>
                     </div>
@@ -161,18 +161,18 @@
             <div class="container container-fluid">
                 <div class="row">
                     <div class="columna columna-50 empujar-58">
-                        <form action="contacto.php" method="POST">
+                        <form action="index.html" id="contact_form_submit" method="POST">
                             <h2 class="conta">Contactanos</h2>
                             <div class="form-block">
-                                <input type="text" name="nombre"
+                                <input type="text" name="nombre" id="name"
                                 class="form-control" placeholder="Nombre">
                             </div>
                             <div class="form-block">
-                                <input type="text" name="email"
+                                <input type="text" name="email" id="email"
                                 class="form-control" placeholder="Email">
                             </div>
                             <div class="form-block">
-                               <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                               <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="form-block bloque-ultimo">
                                <input type="submit" class="boton boton-negro" value="Enviar">
@@ -186,17 +186,17 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="comlumna colunma-25">
-                    <img src="https://educavit.com.mx/aulas-hibridas/assets/img/logo-white.png">
-                    <p class="logo-footer">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <div class="comlumna columna-25">
+                    <img src="img/educavit.png"
+                    class="logo-footer">
+                       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Qui et, harum, repellendus voluptatibus explicabo eum alias
                         doloribus quam laudantium, deserunt eveniet? Eligendi
                         tempore eos sed tempora est possimus quos corporis!
                     </p>
                 </div>
-                <div class="comlumna colunma-25">
-                    <h3>Temas relacionados</h3>
+                <div class="comlumna columna-25">
+                    <h3 class="lol">Temas relacionados</h3>
                     <ul>
                         <li>
                             <a href="#">Tema 1</a>
@@ -209,7 +209,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="comlumna colunma-25">
+                <div class="comlumna columna-25">
                     <h3>Datos de contacto</h3>
                     <ul>
                         <li>
@@ -224,7 +224,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="comlumna colunma-25">
+                <div class="comlumna columna-25">
                     <h3>Redes Sociales</h3>
                     <ul>
                         <li>
@@ -257,4 +257,6 @@
         </div>
     </footer>
 </body>
+<!-- contact js-->
+<!--<script src="js/contact.js"></script>-->
 </html>
