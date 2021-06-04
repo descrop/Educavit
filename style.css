@@ -47,6 +47,7 @@ header .container nav a{
 }
 header .container .hamb{
    display: none;
+   position: relative;
 }
 
 .boton{
@@ -456,6 +457,10 @@ footer .redes a{
             transition: all 0.4s ease;
             transform: translateX(100%);
         }
+
+        header .container nav.open{
+            transform: translateX(0);
+        }
         header .container nav a{
             font-size: 30px;
             margin: 15px 0;
@@ -464,6 +469,7 @@ footer .redes a{
            display: block;
            font-size: 40px;
            color: rgba(83, 183, 74, .55);
+         
         }
 
         body{
@@ -582,5 +588,8 @@ footer .redes a{
         footer .redes{
          justify-content: center;
           }
+          header .container nav.open{
+            transform: translateX(0);
+        }
         
     }
