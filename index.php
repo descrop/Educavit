@@ -302,7 +302,11 @@
 
                                             mail($para,$asunto,$cuerpo,$adicional);
                                          ?>
-                                         <p>Envio exitoso</p>
+                                         echo'<script type="text/javascript">
+                                     alert("Mensaje enviado");
+                            window.location.href="index.php";
+                                            </script>';
+                                         
                                         <?php
                                         
                                         }
