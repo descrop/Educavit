@@ -33,7 +33,7 @@
     </header>
     <main>
         <section id="inicio">
-        <video class="fade" src="img/Aulas_Hibridas.mp4" autoplay muted loop></video>
+            <img class="fade" src="img/aula.jpg">
             <div class="bloque-inicio">
                 <h1>"Bienvenidos a E-ducavit"</h1>
                <!--<p>Ya no es necesario dividir a tus grupos para darles la clase,
@@ -301,18 +301,18 @@
                                             $adicional = "From: Noreply@francisco.com";
 
                                             mail($para,$asunto,$cuerpo,$adicional);
-                                            
-											echo"<div style='background-color:#38d430; font-size:1.5em; color: white; font-weight:bold; padding:5px;'>Gracias por tu tiempo. Nos pondremos en contacto contigo a la brevedad.</div><p>&nbsp;</p>";
-                                         ?>
+                                            echo "<div style='background-color:white; text-aling:justify; font-size:1.5em; color: black; font-weight:bold; padding:5px;'>Gracias por tu tiempo. Nos pondremos en contacto contigo a la brevedad.</div><p>&nbsp;</p>";
 	
+                                         ?>
+                                         
+                                         
                                         <?php
-                                      
+                                        
                                         }
                                     }
                                 }
 
                                }
-                              
                                ?>
                             </div>
                             </div>
