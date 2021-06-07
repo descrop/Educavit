@@ -33,7 +33,7 @@
     </header>
     <main>
         <section id="inicio">
-            <img class="fade" src="img/aula.jpg">
+        <video class="fade" src="img/Aulas_Hibridas.mp4" autoplay muted loop></video>
             <div class="bloque-inicio">
                 <h1>"Bienvenidos a E-ducavit"</h1>
                <!--<p>Ya no es necesario dividir a tus grupos para darles la clase,
